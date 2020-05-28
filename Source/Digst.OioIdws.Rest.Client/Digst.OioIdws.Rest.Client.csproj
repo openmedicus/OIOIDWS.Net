@@ -50,9 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\CommonAssemblyInfo.cs">
-      <Link>Properties\CommonAssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="AccessToken\AccessToken.cs" />
     <Compile Include="AccessToken\IAccessTokenService.cs" />
     <Compile Include="AccessToken\AccessTokenService.cs" />
@@ -62,7 +59,6 @@
     <Compile Include="OioIdwsClientSettings.cs" />
     <Compile Include="OioIdwsRequestHandler.cs" />
     <Compile Include="OioIdwsStsSettings.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Digst.OioIdws.OioWsTrust\Digst.OioIdws.OioWsTrust.csproj">
